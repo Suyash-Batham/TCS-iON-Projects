@@ -23,3 +23,15 @@ https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews/downloa
 
 And download GloVe dataset from here :-
 https://www.kaggle.com/rtatman/glove-global-vectors-for-word-representation?select=glove.6B.100d.txt
+
+Project 2 :-  
+In this project I've used the Keras built-in IMDB dataset. The imdb.load_data() function allows you to load the dataset in a format that is ready for use in neural network and deep learning models.
+We quickly develop a small LSTM for the IMDB problem and achieve good accuracy. 
+But the Recurrent Neural networks like LSTM generally have the problem of overfitting.
+
+
+Dropout is a powerful technique for combating overfitting in your LSTM models
+So, here we applies Dropout that can be applied between layers using the Dropout Keras layer. We can do this easily by adding new Dropout layers between the Embedding and LSTM layers and the LSTM and Dense output layers.
+
+When I used LSTM with dropout then I got test accuracy of 88.05%.
+
